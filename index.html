@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Container for the quiz content -->
+    <div class="quiz-container" id="quiz">
+        <!-- Header section displaying the question -->
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2> <!-- Question will be injected here by JS -->
+            <ul>
+                <!-- Options for the quiz, with each option corresponding to a radio button -->
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">Question</label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Submit button that triggers the evaluation of the user's answers -->
+        <button id="submit">Submit</button>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
