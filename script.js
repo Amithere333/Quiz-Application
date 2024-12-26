@@ -35,7 +35,7 @@ const quizData = [
     },
 
     { 
-        question: 'Which company developed the Python programming language?',
+        question: 'Which of the following developed the Python programming language?',
          a: 'Microsoft',
           b: 'Google',
            c: 'Guido van Rossum', 
