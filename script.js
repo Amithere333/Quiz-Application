@@ -139,6 +139,11 @@ const c_text = document.getElementById('c_text');
 const d_text = document.getElementById('d_text');
 const submitBtn = document.getElementById('submit');
 
+//start button
+
+const startBtn=document.getElementById('start-btn');
+const homePage=document.getElementById('home');
+
 // Variables to keep track of the current quiz question and the user's score
 let currentQuiz = 0;
 let score = 0;
@@ -173,6 +178,12 @@ function getSelected() {
     });
     return answer; // Return the selected answer (id of the radio button)
 }
+
+//start button click event
+startBtn.addEventListener('click',()=>{
+    homePage.style.display='none';
+    quiz.style.display='block';
+})
 
 // Event listener for the submit button
 submitBtn.addEventListener('click', () => {
