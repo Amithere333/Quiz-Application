@@ -49,7 +49,7 @@ body{
 
 .quiz-container{
     background-color: #fff;
-    box-shadow: 0 0 10px 2px white;
+    box-shadow: 0 0 10px 2px gray;
     width: 80%; 
     max-width: 600px;
     overflow: hidden;
